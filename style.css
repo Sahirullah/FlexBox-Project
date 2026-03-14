@@ -61,6 +61,13 @@ body {
     letter-spacing: -0.5px;
 }
 
+.logo-text {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
 .logo-link {
     display: flex;
     align-items: center;
@@ -124,6 +131,45 @@ body {
 .nav-link.active {
     color: #3498db;
     border-bottom: 2px solid #3498db;
+}
+
+/* Header Actions */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.login-icon {
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-icon:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.apply-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+.apply-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
 /* ========================================
